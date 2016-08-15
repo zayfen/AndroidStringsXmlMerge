@@ -140,6 +140,9 @@ public class StringsMergeUtil {
         return sw.toString();
     }
 
+    /**
+     * FIXME: 写出时用utf-8编码
+     * /
     private static void writeFileContent(File file, String content) throws IOException {
         if (file == null || content == null) {
             throw new IllegalArgumentException("file or content must not be null.");
